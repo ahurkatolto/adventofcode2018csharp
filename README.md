@@ -4,9 +4,9 @@ My attempt to solve the [2018 Advent of Code](https://adventofcode.com/2018) puz
 **[1. Day](day1/)**:   
   `Puzzle 1 ✅`
   `Puzzle 2 ✅`   
-**2. Day**:   
-  `Puzzle 1 ❌`
-  `Puzzle 2 ❌`   
+**[2. Day](day2/)**:   
+  `Puzzle 1 ✅`
+  `Puzzle 2 ✅`   
 **3. Day**:   
   `Puzzle 1 ❌`
   `Puzzle 2 ❌`   
