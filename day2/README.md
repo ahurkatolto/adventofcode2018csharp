@@ -37,7 +37,7 @@ Result: `5000`
 ## Part 2:
 Get an ID pair whith only 1 character difference, and the line of the matching characters of that pair is the result.
 ### Code:
-First, it reads every ID into a list. Then tests every ID combination in the list to find a pair with 1 character difference, which is done by having an empty string, and adding the current pair's matching characters to it. Position matters, so it uses a for cycle to only add a character it is equal at the same positions in both IDs. Then to get the result, check if the length of the output string is 1 character less then an ID. (It outputs the same string 2 times, because it finds every pair in 2 combinations, like [ABC-ABD] and [ABD-ABC].)
+First, it reads every ID into a list. Then tests every ID combination in the list to find a pair with 1 character difference, which is done by having an empty string, and adding the current pair's matching characters to it. Position matters, so it uses a for cycle to only add a character if it is equal at the same positions in both IDs. Then to get the result, check if the length of the output string is 1 character less then an ID. (It outputs the same string 2 times, because it finds every pair in 2 combinations, like [ABC-ABD] and [ABD-ABC].)
 ```csharp
 List<string> ids = File.ReadAllLines("input.txt").ToList();
 foreach(string baseId in ids) {
