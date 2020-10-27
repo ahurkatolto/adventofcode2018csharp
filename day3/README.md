@@ -1,4 +1,4 @@
-# Day #1
+# Day #3
 The `input.txt` looks like this:
 ```
 #1 @ 509,796: 18x15
