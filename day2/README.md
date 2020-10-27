@@ -1,4 +1,4 @@
-# Day #1
+# Day #2
 The `input.txt` looks like this:
 ```
 ymdrcyapvwfloiuktanxzjsieb
