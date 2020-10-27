@@ -9,7 +9,7 @@ ymdrfegpvwfloiukjanxzjsqeb
 ...
 ```
 ## Part 1:
-Calculating checksum () from the list of box IDs included (it varies per user from here: [input](https://adventofcode.com/2018/day/1/input)).
+Calculating checksum () from the list of box IDs included (it varies per user from here: [input](https://adventofcode.com/2018/day/2/input)).
 ### What does the code do:
 Read every line from the file (id), collect every unique character from the id, then test if the id contains any those characters 2 or 3 times.
 
